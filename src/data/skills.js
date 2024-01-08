@@ -20,13 +20,28 @@ const skills = [
     icon: "/logo/nextjs.webp",
   },
   {
+    title: "Next.js",
+    level: "⭐⭐⭐",
+    icon: "/logo/nextjs.webp",
+  },
+  {
+    title: "Redux",
+    level: "⭐⭐⭐",
+    icon: "/logo/redux.png",
+  },
+  {
     title: "Node.js",
     level: "⭐⭐⭐",
     icon: "/logo/nodejs.webp",
   },
   {
+    title: "Express.js",
+    level: "⭐⭐⭐",
+    icon: "/logo/express.png",
+  },
+  {
     title: "Tailwind Css",
-    level: "⭐⭐",
+    level: "⭐⭐⭐",
     icon: "/logo/tailwind.png",
   },
   {

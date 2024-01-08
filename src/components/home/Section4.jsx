@@ -29,11 +29,11 @@ const HomeSection4 = ({ current, setCurrent }) => {
       elementRef={skillsRef}
     >
       <ConstraintedBox classNames="p-4 py-12">
-        <h2 className="text-center mx-auto">
+        <h2 className="mx-auto text-center">
           Skills <span className="text-[var(--primaryColor)]">I Know</span>
         </h2>
 
-        <WrappedBox classes="justify-items-center grid-cols-2 sm:grid-cols-3 mt-12">
+        <WrappedBox classes="justify-items-center grid-cols-2 sm:grid-cols-4 mt-12">
           {skills.map((service, index) => {
             return (
               <Column
@@ -57,9 +57,9 @@ const HomeSection4 = ({ current, setCurrent }) => {
                   }}
                 />
 
-                <h5 className="font-bold mt-4">{service.title}</h5>
+                <h5 className="mt-4 font-bold">{service.title}</h5>
 
-                <p className="mt-4 flex flex-row items-center">
+                <p className="flex flex-row items-center mt-4">
                   {service.level}
                 </p>
               </Column>
