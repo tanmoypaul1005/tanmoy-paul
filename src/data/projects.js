@@ -22,16 +22,6 @@ const projects = [
     tags: ["React.js", "Material UI", "Zustand"],
   },
 
-  {
-    title: "Social Media API",
-    description:
-      "An RESTful API developed using Node.js, Express.js and MongoDB to integrate backend and frontend with ease.",
-    icon: "/logo/nodejs.webp",
-    sceenshots: [],
-    githubUrl: "https://github.com/nixrajput/social-media-api-nodejs",
-    repoType: "private",
-    tags: ["Node.js", "Express.js", "MongoDB", "WebSocket"],
-  },
 
   {
     title: "E-commerce API",
@@ -43,6 +33,18 @@ const projects = [
     repoType: "public",
     tags: ["Node.js", "Express.js", "Mongoose", "Stripe"],
   },
+
+  {
+    title: "E-commerce API",
+    description:
+      "An RESTful API developed using Node.js, Express.js, MongoDB, and Stripe to integrate e-commerce backend.",
+    icon: "/logo/nodejs.webp",
+    sceenshots: [],
+    githubUrl: "https://github.com/tanmoypaul1005/flipkartserver",
+    repoType: "public",
+    tags: ["Node.js", "Express.js", "Mongoose", "Stripe"],
+  },
+
 ];
 
 export default projects;
