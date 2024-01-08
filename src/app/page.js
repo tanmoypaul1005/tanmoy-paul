@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import Script from "next/script";
+// import Script from "next/script";
 import PageBox from "@/components/common/PageBox";
 import NavBar from "@/components/navbar/NavBar";
 import HomeSection1 from "@/components/home/Section1";
@@ -14,6 +14,7 @@ import HomeSection6 from "@/components/home/Section6";
 // const gtagId = process.env.NEXT_PUBLIC_GTAG_ID;
 
 export default function Home() {
+  
   const [current, setCurrent] = useState("");
 
   return (
