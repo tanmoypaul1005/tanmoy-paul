@@ -19,15 +19,23 @@ const skills = [
     level: "⭐⭐⭐",
     icon: "/logo/nextjs.webp",
   },
-  {
-    title: "Next.js",
-    level: "⭐⭐⭐",
-    icon: "/logo/nextjs.webp",
-  },
+
   {
     title: "Redux",
     level: "⭐⭐⭐",
     icon: "/logo/redux.png",
+  },
+
+  {
+    title: "Laravel",
+    level: "⭐⭐⭐",
+    icon: "/logo/laravel.png",
+  },
+
+  {
+    title: "MySQL",
+    level: "⭐⭐⭐",
+    icon: "/logo/mysql.png",
   },
   {
     title: "Node.js",
@@ -40,14 +48,14 @@ const skills = [
     icon: "/logo/express.png",
   },
   {
-    title: "Tailwind Css",
-    level: "⭐⭐⭐",
-    icon: "/logo/tailwind.png",
-  },
-  {
     title: "MongoDB",
     level: "⭐⭐",
     icon: "/logo/mongodb.webp",
+  },
+  {
+    title: "Tailwind Css",
+    level: "⭐⭐⭐",
+    icon: "/logo/tailwind.png",
   },
   {
     title: "SASS",
