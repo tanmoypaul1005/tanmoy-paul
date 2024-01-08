@@ -11,17 +11,17 @@ import HomeSection4 from "@/components/home/Section4";
 import HomeSection5 from "@/components/home/Section5";
 import HomeSection6 from "@/components/home/Section6";
 
-const gtagId = process.env.NEXT_PUBLIC_GTAG_ID;
+// const gtagId = process.env.NEXT_PUBLIC_GTAG_ID;
 
 export default function Home() {
   const [current, setCurrent] = useState("");
 
   return (
     <PageBox>
-      <Script
+      {/* <Script
         strategy="worker"
         src={`https://www.googletagmanager.com/gtag/js?id=${gtagId}`}
-      />
+      /> */}
 
       <Script id="google-analytics" strategy="worker">
         {`
