@@ -40,7 +40,7 @@ export default function Home() {
       <HomeSection2 current={current} setCurrent={setCurrent} />
       <HomeSection3 current={current} setCurrent={setCurrent} />
       <HomeSection4 current={current} setCurrent={setCurrent} />
-      {/* <HomeSection5 current={current} setCurrent={setCurrent} /> */}
+      <HomeSection5 current={current} setCurrent={setCurrent} /> 
       <HomeSection6 current={current} setCurrent={setCurrent} />
     </PageBox>
   );

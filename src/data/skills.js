@@ -1,8 +1,13 @@
 const skills = [
   {
-    title: "Flutter",
+    title: "JavaScript",
     level: "⭐⭐⭐",
-    icon: "/logo/flutter.webp",
+    icon: "/logo/js.png",
+  },
+  {
+    title: "Typescript",
+    level: "⭐⭐⭐",
+    icon: "/logo/typescript.svg",
   },
   {
     title: "React.js",
@@ -20,14 +25,9 @@ const skills = [
     icon: "/logo/nodejs.webp",
   },
   {
-    title: "HTML",
+    title: "Tailwind Css",
     level: "⭐⭐",
-    icon: "/logo/html.webp",
-  },
-  {
-    title: "CSS",
-    level: "⭐⭐",
-    icon: "/logo/css.webp",
+    icon: "/logo/tailwind.png",
   },
   {
     title: "MongoDB",
