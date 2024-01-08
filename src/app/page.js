@@ -23,7 +23,7 @@ export default function Home() {
         src={`https://www.googletagmanager.com/gtag/js?id=${gtagId}`}
       /> */}
 
-      <Script id="google-analytics" strategy="worker">
+      {/* <Script id="google-analytics" strategy="worker">
         {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
@@ -32,7 +32,7 @@ export default function Home() {
             page_path: window.location.pathname,
           });
         `}
-      </Script>
+      </Script> */}
 
       <NavBar current={current} />
       <HomeSection1 current={current} setCurrent={setCurrent} />
