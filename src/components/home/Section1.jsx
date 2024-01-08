@@ -39,7 +39,7 @@ const HomeSection1 = ({ current, setCurrent }) => {
       id="about"
       elementRef={homeRef}
     >
-      <ConstraintedBox classNames="p-4 pb-16 pt-8 sm:pt-16">
+      <ConstraintedBox classNames="p-4 pt-8 sm:pt-16">
         <WrappedBox classes="justify-items-stretch">
           <Column classes="justify-center">
             <p className="max-w-sm">{About.welcomeText}</p>
@@ -52,11 +52,11 @@ const HomeSection1 = ({ current, setCurrent }) => {
               {About.description}
             </p>
 
-            <FilledButton
+            {/* <FilledButton
               label="Let's Talk"
               onClick={onHandleClickTalkBtn}
               className="mt-8 min-w-[10rem]"
-            />
+            /> */}
 
             <Column classes="mt-8">
               <p className="font-semibold text-md">{About.followText}</p>
