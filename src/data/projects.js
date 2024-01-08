@@ -1,37 +1,27 @@
 const projects = [
   {
-    title: "Social Media App",
+    title: "Limadi Courier service",
     description:
-      "A social media mobile application developed using Flutter, GetX, Firebase Notifications and Hive.",
-    icon: "/logo/flutter.webp",
+      "A courier service is a company that helps in the shipping of goods from one place to another. For example, if you want to deliver a particular product to your customers, you'd hand over the parcel to a courier company to take it forward, unless you own a delivery fleet of your own.",
+      icon: "/logo/reactjs.webp",
     sceenshots: [],
-    githubUrl: "https://github.com/nixrajput/social-media-app-flutter",
-    url: "https://www.nixlab.co.in/projects/com.nixlab.rippl",
+    githubUrl: "https://github.com/tanmoypaul1005/courier-service",
+    url: "http://demo.limadi.dk/",
     repoType: "public",
-    tags: ["Flutter", "Dart", "GetX", "Hive"],
+    tags: ["React.js", "Redux", "Material UI", "Zustand"],
   },
   {
-    title: "E-commerce App",
+    title: "Gifty",
     description:
-      "An e-commerce web application developed using React.js, Material UI, Redux, and Stripe.",
+      "An e-commerce web application developed using React.js, Material UI, Redux.Our service allows AI to recognize the user’s text and a special product can actually write and send a letter that is uniquely you to your loved ones.",
     icon: "/logo/reactjs.webp",
     sceenshots: [],
-    githubUrl: "https://github.com/nixrajput/ecommerce-web-reactjs",
-    url: "https://nixlab-shop.cyclic.app",
+    githubUrl: "https://github.com/tanmoypaul1005/giftcard-Shop",
+    url: "https://www.non-logi.com/",
     repoType: "public",
-    tags: ["React.js", "Redux", "Material UI", "Stripe"],
+    tags: ["React.js", "Material UI", "Zustand"],
   },
-  {
-    title: "Video Calling App",
-    description:
-      "A video calling mobile application developed using Flutter and Agora SDK that allows users to call each other face to face.",
-    icon: "/logo/flutter.webp",
-    sceenshots: [],
-    githubUrl: "https://github.com/nixrajput/video-calling-app-flutter",
-    url: "https://www.nixlab.co.in/projects/livebox-app",
-    repoType: "public",
-    tags: ["Flutter", "Dart", "GetX", "Agora SDK"],
-  },
+
   {
     title: "Social Media API",
     description:
@@ -42,26 +32,16 @@ const projects = [
     repoType: "private",
     tags: ["Node.js", "Express.js", "MongoDB", "WebSocket"],
   },
-  {
-    title: "Grocery List Maker App",
-    description:
-      "A grocery list maker mobile application developed using Flutter, BloC, Hive DB and PDF.",
-    icon: "/logo/flutter.webp",
-    sceenshots: [],
-    githubUrl: "https://github.com/nixrajput/grocery-list-maker-flutter",
-    url: "https://github.com/nixrajput/grocery-list-maker-flutter/releases/latest",
-    repoType: "public",
-    tags: ["Flutter", "Dart", "BLoC", "PDF", "Hive"],
-  },
+
   {
     title: "E-commerce API",
     description:
       "An RESTful API developed using Node.js, Express.js, MongoDB, and Stripe to integrate e-commerce backend.",
     icon: "/logo/nodejs.webp",
     sceenshots: [],
-    githubUrl: "https://github.com/nixrajput/ecommerce-api-nodejs",
+    githubUrl: "https://github.com/tanmoypaul1005/koreanbackend",
     repoType: "public",
-    tags: ["Node.js", "Express.js", "MongoDB", "Stripe"],
+    tags: ["Node.js", "Express.js", "Mongoose", "Stripe"],
   },
 ];
 
