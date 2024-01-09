@@ -26,12 +26,13 @@ const HomeSection3 = ({ current, setCurrent }) => {
 
   return (
     <ResponsiveBox
-      classNames="bg-[var(--dialogColor)] min-h-[100vh] items-center justify-center"
+      // min-h-[100vh] 
+      classNames="bg-[var(--dialogColor)] items-center justify-center"
       id="experiences"
       elementRef={experiencesRef}
     >
       <ConstraintedBox classNames="p-4 py-12">
-        <h2 className="text-center mx-auto">
+        <h2 className="mx-auto text-center">
           Experiences{" "}
           <span className="text-[var(--primaryColor)]">I Possess</span>
         </h2>
@@ -52,7 +53,7 @@ const HomeSection3 = ({ current, setCurrent }) => {
                   {exp.duration}
                 </small>
 
-                <h4 className="font-bold mt-1">{exp.designation}</h4>
+                <h4 className="mt-1 font-bold">{exp.designation}</h4>
 
                 <p className="mt-1 text-[var(--textColorLight)] font-bold">
                   @ {exp.company}
