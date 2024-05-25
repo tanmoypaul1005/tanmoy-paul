@@ -1,27 +1,26 @@
 const projects = [
   {
-    title: "Limadi Courier service",
+    title: "Music player",
     description:
-      "A courier service is a company that helps in the shipping of goods from one place to another. For example, if you want to deliver a particular product to your customers, you'd hand over the parcel to a courier company to take it forward, unless you own a delivery fleet of your own.",
-      icon: "/logo/reactjs.webp",
-    sceenshots: [],
-    githubUrl: "https://github.com/tanmoypaul1005/courier-service",
-    url: "http://demo.limadi.dk/",
-    repoType: "public",
-    tags: ["React.js", "Redux", "Material UI", "Zustand"],
-  },
-  {
-    title: "Gifty",
-    description:
-      "An e-commerce web application developed using React.js, Material UI, Redux.Our service allows AI to recognize the user’s text and a special product can actually write and send a letter that is uniquely you to your loved ones.",
+      "A web-based music player built with React.js, Redux, and Material UI, utilizing Zustand for state management. It allows users to browse, play, and manage their music collection with a sleek and responsive interface.The application features a music player with play, pause, and skip functionality, as well as a music library with a search bar and the ability to add and remove songs from the library. The application also includes a dark mode toggle and a volume control slider.",
     icon: "/logo/reactjs.webp",
     sceenshots: [],
-    githubUrl: "https://github.com/tanmoypaul1005/giftcard-Shop",
-    url: "https://www.non-logi.com/",
+    githubUrl: "https://github.com/tanmoypaul1005/my-music-store",
+    url: "https://my-music-store.vercel.app",
     repoType: "public",
-    tags: ["React.js", "Material UI", "Zustand"],
+    tags: ["Next.js", "Redux", "Material UI", "Zustand","sass"],
   },
-
+  {
+    title: "Task manager",
+    description:
+      "A Next.js task manager with drag-and-drop functionality,empowering users to effortlessly organize and prioritize their tasks for streamlined productivity.",
+    icon: "/logo/reactjs.webp",
+    sceenshots: [],
+    githubUrl: "https://github.com/tanmoypaul1005/task-manager",
+    url: "https://task-manager-plan.vercel.app/",
+    repoType: "public",
+    tags: ["Next.js", "Material UI", "Redux", "React-beautiful-dnd","Tailwind CSS"],
+  },
 
   {
     title: "E-commerce API",
@@ -44,7 +43,6 @@ const projects = [
     repoType: "public",
     tags: ["Node.js", "Express.js", "Mongoose", "Stripe"],
   },
-
 ];
 
 export default projects;
