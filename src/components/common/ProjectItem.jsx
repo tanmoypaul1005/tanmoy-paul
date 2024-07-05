@@ -9,11 +9,19 @@ import Row from "@/components/common/Row";
 const ProjectItem = ({ project }) => {
   return (
     <Column classes="w-full bg-[var(--textColor10)] p-4 rounded-[var(--borderRadius)] items-center justify-between text-center">
-     
       <Column classes="w-full items-center justify-center">
-      {
-            project.image ? <Image src={project?.image} width="500" height="700" alt="projects"/>: 
-            <Row classes="w-[4rem] aspect-square bg-[var(--textColor10)] rounded-full p-[1rem] items-center justify-center">
+        {project.image ? (
+          <Link target="_blank" rel="noopener noreferrer" href={project?.url}>
+            <Image
+              style={{ objectFit: "contain", maxHeight: "260px",minWidth:"auto" }}
+              src={project?.image}
+              width="500"
+              height="500"
+              alt="projects"
+            />
+          </Link>
+        ) : (
+          <Row classes="w-[4rem] aspect-square bg-[var(--textColor10)] rounded-full p-[1rem] items-center justify-center">
             <Image
               src={project.icon}
               alt={`project-${project.title}`}
@@ -31,32 +39,9 @@ const ProjectItem = ({ project }) => {
               }}
             />
           </Row>
-          }
-  
+        )}
 
-        <h4 className="font-bold mt-4">{project.title}</h4>
-
-        <small
-          className="rounded-lg py-[0.15rem] px-[0.5rem] mt-2 font-normal capitalize text-center"
-          style={{
-            backgroundColor:
-              project.repoType.toLowerCase() === "private"
-                ? "var(--errorColor30)"
-                : "var(--successColor30)",
-            border: `1px solid ${
-              project.repoType.toLowerCase() === "private"
-                ? "var(--errorColor50)"
-                : "var(--successColor50)"
-            }`,
-            color:
-              project.repoType.toLowerCase() === "private"
-                ? "var(--errorColor)"
-                : "var(--successColor)",
-          }}
-        >
-          {project.repoType}
-        </small>
-
+        <h4 className="mt-4 font-bold">{project.title}</h4>
         <Row classes="w-full items-center justify-center mt-4 gap-2">
           {project.githubUrl ? (
             <Link

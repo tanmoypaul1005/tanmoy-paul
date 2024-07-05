@@ -19,6 +19,7 @@ const projects = [
     githubUrl: "https://github.com/tanmoypaul1005/my-music-store",
     url: "https://my-music-store.vercel.app",
     repoType: "public",
+    image:"/images/musicPlayer.png",
     tags: ["Next.js", "Redux", "Material UI", "Zustand","sass"],
   },
   {
