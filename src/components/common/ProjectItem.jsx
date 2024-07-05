@@ -13,7 +13,7 @@ const ProjectItem = ({ project }) => {
         {project.image ? (
           <Link target="_blank" rel="noopener noreferrer" href={project?.url}>
             <Image
-              style={{ objectFit: "contain", maxHeight: "260px",minWidth:"auto" }}
+              style={{  minHeight:"220px", maxHeight: "220px",minWidth:"auto" }}
               src={project?.image}
               width="500"
               height="500"

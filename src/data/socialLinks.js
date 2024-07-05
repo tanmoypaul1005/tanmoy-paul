@@ -21,12 +21,12 @@ const socialLinks = [
     icon: <FontAwesomeIcon icon={faLinkedin} />,
     text: Strings.linkedInUsername,
   },
-  // {
-  //   name: Strings.telegram,
-  //   url: Strings.telegramLink,
-  //   icon: <FontAwesomeIcon icon={faTelegram} />,
-  //   text: Strings.telegramUsername,
-  // },
+  {
+    name: Strings.telegram,
+    url: Strings.telegramLink,
+    icon: <FontAwesomeIcon icon={faTelegram} />,
+    text: Strings.telegramUsername,
+  },
   // {
   //   name: Strings.instagram,
   //   url: Strings.instagramLink,

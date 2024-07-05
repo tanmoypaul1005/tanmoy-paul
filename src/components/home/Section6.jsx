@@ -43,11 +43,10 @@ const HomeSection6 = ({ current, setCurrent }) => {
 
         <Column classes="mt-12 w-full">
           <WrappedBox classes="sm:grid-cols-2 w-full mx-auto gap-4">
+          <a className="text-white" href="mailto:tanmoypaul1005@gmail.com" target="_blank" rel="noopener noreferrer">
             <Row
               classes="bg-[var(--textColor10)] p-4 rounded-[var(--borderRadius)] items-center text-center justify-center cursor-pointer animated__hover"
-              onClick={() =>
-                onHandleClickUrl("mailto:nkr.nikhil.nkr@gmail.com")
-              }
+              
             >
               <span className="text-xl">
                 <FontAwesomeIcon icon={faEnvelope} />
@@ -57,6 +56,7 @@ const HomeSection6 = ({ current, setCurrent }) => {
                 tanmoypaul1005@gmail.com
               </p>
             </Row>
+            </a>
 
             {socialLinks.map((link, index) => {
               return (

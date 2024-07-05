@@ -1,13 +1,14 @@
 const projects = [
   {
     title: "Gadget store bd",
-    description:"Your ultimate online destination for the latest and greatest in technology and gadgets.",
+    description:
+    "Your ultimate online destination for the latest and greatest in technology and gadgets.Gadget Store BD is an ambitious project aimed at creating an innovative e-commerce platform tailored specifically for the tech-savvy consumer market in Bangladesh. Leveraging the cutting-edge capabilities of Next.js 13, this project promises to deliver a seamless and engaging online shopping experience.",
     icon: "/logo/reactjs.webp",
     sceenshots: [],
     githubUrl: "https://github.com/tanmoypaul1005/gadget-store",
     url: "https://gadget-storebd.vercel.app/",
     repoType: "public",
-    tags: ["Next.js", "Material UI", "sass"],
+    tags: ["Next.js", "Material UI", "Tailwind css"],
     image:"/images/gadgetStore.png"
   },
   {
