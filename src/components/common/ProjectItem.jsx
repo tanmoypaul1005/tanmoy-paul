@@ -9,25 +9,30 @@ import Row from "@/components/common/Row";
 const ProjectItem = ({ project }) => {
   return (
     <Column classes="w-full bg-[var(--textColor10)] p-4 rounded-[var(--borderRadius)] items-center justify-between text-center">
+     
       <Column classes="w-full items-center justify-center">
-        <Row classes="w-[4rem] aspect-square bg-[var(--textColor10)] rounded-full p-[1rem] items-center justify-center">
-          <Image
-            src={project.icon}
-            alt={`project-${project.title}`}
-            width={100}
-            height={100}
-            sizes="100%"
-            loading="lazy"
-            placeholder="blur"
-            blurDataURL={project.icon}
-            style={{
-              objectFit: "cover",
-              width: "100%",
-              height: "100%",
-              aspectRatio: "1 / 1",
-            }}
-          />
-        </Row>
+      {
+            project.image ? <Image src={project?.image} width="500" height="700" alt="projects"/>: 
+            <Row classes="w-[4rem] aspect-square bg-[var(--textColor10)] rounded-full p-[1rem] items-center justify-center">
+            <Image
+              src={project.icon}
+              alt={`project-${project.title}`}
+              width={100}
+              height={100}
+              sizes="100%"
+              loading="lazy"
+              placeholder="blur"
+              blurDataURL={project.icon}
+              style={{
+                objectFit: "cover",
+                width: "100%",
+                height: "100%",
+                aspectRatio: "1 / 1",
+              }}
+            />
+          </Row>
+          }
+  
 
         <h4 className="font-bold mt-4">{project.title}</h4>
 

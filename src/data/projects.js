@@ -8,6 +8,7 @@ const projects = [
     url: "https://gadget-storebd.vercel.app/",
     repoType: "public",
     tags: ["Next.js", "Material UI", "sass"],
+    image:"/images/gadgetStore.png"
   },
   {
     title: "Music player",
