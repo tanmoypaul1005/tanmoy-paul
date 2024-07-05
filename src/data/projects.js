@@ -1,5 +1,17 @@
 const projects = [
   {
+    title: "Music player",
+    description:
+      "A web-based music player built with React.js, Redux, and Material UI, utilizing Zustand for state management. It allows users to browse, play, and manage their music collection with a sleek and responsive interface.The application features a music player with play, pause, and skip functionality, as well as a music library with a search bar and the ability to add and remove songs from the library. The application also includes a dark mode toggle and a volume control slider.",
+    icon: "/logo/reactjs.webp",
+    sceenshots: [],
+    githubUrl: "https://github.com/tanmoypaul1005/my-music-store",
+    url: "https://my-music-store.vercel.app",
+    repoType: "public",
+    image:"/images/musicPlayer.png",
+    tags: ["Next.js", "Redux", "Material UI", "Zustand","sass","Typescript"],
+  },
+  {
     title: "Gadget store bd",
     description:
     "Your ultimate online destination for the latest and greatest in technology and gadgets.Gadget Store BD is an ambitious project aimed at creating an innovative e-commerce platform tailored specifically for the tech-savvy consumer market in Bangladesh. Leveraging the cutting-edge capabilities of Next.js 13, this project promises to deliver a seamless and engaging online shopping experience.",
@@ -10,18 +22,6 @@ const projects = [
     repoType: "public",
     tags: ["Next.js", "Material UI", "Tailwind css"],
     image:"/images/gadgetStore.png"
-  },
-  {
-    title: "Music player",
-    description:
-      "A web-based music player built with React.js, Redux, and Material UI, utilizing Zustand for state management. It allows users to browse, play, and manage their music collection with a sleek and responsive interface.The application features a music player with play, pause, and skip functionality, as well as a music library with a search bar and the ability to add and remove songs from the library. The application also includes a dark mode toggle and a volume control slider.",
-    icon: "/logo/reactjs.webp",
-    sceenshots: [],
-    githubUrl: "https://github.com/tanmoypaul1005/my-music-store",
-    url: "https://my-music-store.vercel.app",
-    repoType: "public",
-    image:"/images/musicPlayer.png",
-    tags: ["Next.js", "Redux", "Material UI", "Zustand","sass"],
   },
   {
     title: "Task manager",
