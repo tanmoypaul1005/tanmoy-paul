@@ -32,13 +32,14 @@ const projects = [
     githubUrl: "https://github.com/tanmoypaul1005/task-manager",
     url: "https://task-manager-plan.vercel.app/",
     repoType: "public",
+    image:"/images/taskManager.png",
     tags: ["Next.js", "Material UI", "Redux", "React-beautiful-dnd","Tailwind CSS"],
   },
 
   {
     title: "E-commerce API",
     description:
-      "An RESTful API developed using Node.js, Express.js, MongoDB, and Stripe to integrate e-commerce backend.",
+      "An RESTful API developed using Node.js, Express.js, MongoDB, and Stripe to integrate e-commerce backend.Explore our E-Commerce API, offering seamless integration for product management, shopping cart functionality, and secure authentication.Manage shopping carts by adding products and viewing current cart contents with detailed item breakdowns.Access detailed product information, including listings filtered by category and pagination options.Authenticate using your API key to obtain an access token for secure API interactions.All API requests require authentication using API keys. You can obtain your API key by signing up on our developer portal.",
     icon: "/logo/nodejs.webp",
     sceenshots: [],
     githubUrl: "https://github.com/tanmoypaul1005/koreanbackend",
