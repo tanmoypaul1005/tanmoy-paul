@@ -1,5 +1,15 @@
 const projects = [
   {
+    title: "Gadget store bd",
+    description:"Your ultimate online destination for the latest and greatest in technology and gadgets.",
+    icon: "/logo/reactjs.webp",
+    sceenshots: [],
+    githubUrl: "https://github.com/tanmoypaul1005/gadget-store",
+    url: "https://gadget-storebd.vercel.app/",
+    repoType: "public",
+    tags: ["Next.js", "Material UI", "sass"],
+  },
+  {
     title: "Music player",
     description:
       "A web-based music player built with React.js, Redux, and Material UI, utilizing Zustand for state management. It allows users to browse, play, and manage their music collection with a sleek and responsive interface.The application features a music player with play, pause, and skip functionality, as well as a music library with a search bar and the ability to add and remove songs from the library. The application also includes a dark mode toggle and a volume control slider.",
