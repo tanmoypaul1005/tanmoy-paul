@@ -14,7 +14,7 @@ const projects = [
   {
     title: "Gadget store bd",
     description:
-    "Your ultimate online destination for the latest and greatest in technology and gadgets.Gadget Store BD is an ambitious project aimed at creating an innovative e-commerce platform tailored specifically for the tech-savvy consumer market in Bangladesh. Leveraging the cutting-edge capabilities of Next.js 13, this project promises to deliver a seamless and engaging online shopping experience.",
+    "Your ultimate online destination for the latest and greatest in technology and gadgets.Gadget Store BD is an ambitious project aimed at creating an innovative e-commerce platform tailored specifically for the tech-savvy consumer market in Bangladesh. Leveraging the cutting-edge capabilities of Next.js 13, this project promises to deliver a seamless and engaging online shopping experience.A web-based online shop built with React.js, Redux, and Material UI, utilizing Zustand for state management. ",
     icon: "/logo/reactjs.webp",
     sceenshots: [],
     githubUrl: "https://github.com/tanmoypaul1005/gadget-store",

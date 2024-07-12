@@ -41,8 +41,8 @@ const ProjectItem = ({ project }) => {
           </Row>
         )}
 
-        <h4 className="mt-4 font-bold">{project.title}</h4>
-        <Row classes="w-full items-center justify-center mt-4 gap-2">
+        <h4 className="mt-3 font-bold">{project.title}</h4>
+        <Row classes="w-full items-center justify-center mt-3 gap-2">
           {project.githubUrl ? (
             <Link
               href={project.githubUrl}
@@ -73,7 +73,7 @@ const ProjectItem = ({ project }) => {
         </Row>
       </Column>
 
-      <Column classes="w-full mt-8 items-center">
+      <Column classes="w-full mt-3 items-center">
         <p className="text-center">{project.description}</p>
 
         <Row classes="w-full items-center justify-center flex-wrap mt-4">

@@ -15,6 +15,11 @@ const skills = [
     icon: "/logo/reactjs.webp",
   },
   {
+    title: "Vue.js",
+    level: "⭐⭐⭐",
+    icon: "/logo/vue.png",
+  },
+  {
     title: "Next.js",
     level: "⭐⭐⭐",
     icon: "/logo/nextjs.webp",
@@ -25,6 +30,11 @@ const skills = [
     level: "⭐⭐⭐",
     icon: "/logo/redux.png",
   },
+  {
+    title: "TanStack Query",
+    level: "⭐⭐⭐",
+    icon: "/logo/tanStackQuery.png",
+  },  
 
   {
     title: "Laravel",
