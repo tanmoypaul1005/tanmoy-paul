@@ -37,6 +37,12 @@ const skills = [
   },  
 
   {
+    title: "PHP",
+    level: "⭐⭐⭐",
+    icon: "/logo/php.png",
+  },
+
+  {
     title: "Laravel",
     level: "⭐⭐⭐",
     icon: "/logo/laravel.png",
