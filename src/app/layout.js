@@ -1,6 +1,7 @@
 import ScrollToTop from "@/components/common/ScrollToTop";
 import "./globals.scss";
 import { Poppins } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next"
 
 const poppins = Poppins({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
@@ -20,6 +21,7 @@ const RootLayout = ({ children }) => {
     <html lang="en" className={poppins.className}>
       <body>
         <ScrollToTop /> {children}
+        <Analytics/> 
       </body>
     </html>
   );
